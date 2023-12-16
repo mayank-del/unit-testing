@@ -1,6 +1,6 @@
 // app.js
 const express = require('express');
-const supertest = require('supertest');
+
 
 const app = express();
 app.use(express.json());
@@ -25,6 +25,3 @@ app.get('/retrieve', (req, res) => {
 
 // Export the app for testing
 module.exports = app;
-
-
-
